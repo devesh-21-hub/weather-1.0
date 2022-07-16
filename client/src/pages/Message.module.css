@@ -1,0 +1,26 @@
+.link {
+  color: black;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+
+  .link {
+    font-size: 20px;
+  }
+}

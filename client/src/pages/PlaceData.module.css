@@ -1,0 +1,9 @@
+.image {
+  max-width: 50px;
+  max-height: 40px;
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+}

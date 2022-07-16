@@ -1,0 +1,18 @@
+.card1 {
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 2px 8px rgba(24, 23, 23, 0.375);
+  border-radius: 6px;
+  background-color: rgba(24, 23, 23, 0.57);
+  text-align: center;
+  /* border: 2px solid rgba(2, 2, 2, 0.436); */
+}
+
+.card2 {
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 2px 8px rgba(24, 23, 23, 0.2);
+  border-radius: 6px;
+  background-color: rgb(219, 62, 62);
+  text-align: center;
+}

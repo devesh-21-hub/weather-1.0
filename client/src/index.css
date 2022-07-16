@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./assests/bg-image.jpg");
+  background-color: rgb(43, 41, 41);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

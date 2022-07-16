@@ -1,0 +1,74 @@
+.header {
+  font-weight: bold;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.weather {
+  font-style: italic;
+  padding-top: 0.5rem;
+  margin-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.form {
+  margin: 1rem 0;
+  height: 5rem;
+}
+
+label {
+  font-weight: bold;
+  font-size: large;
+  margin: 1rem auto;
+  display: block;
+}
+
+input {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 20rem;
+  height: 2rem;
+  max-width: 100%;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.actions button {
+  padding: 0.5rem 2rem;
+  margin: 1rem auto;
+  font: inherit;
+  color: white;
+  background-color: #0e0d0d;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+}
+
+.image {
+  display: flex;
+  height: 40vh;
+  max-width: 50%;
+  margin: 25px auto;
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .image {
+    display: flex;
+    height: 20vh;
+    max-width: 60%;
+    margin: 5px auto;
+    padding: 0;
+  }
+  h1 {
+    font-size: large;
+  }
+  h2 {
+    font-size: smaller;
+  }
+}
